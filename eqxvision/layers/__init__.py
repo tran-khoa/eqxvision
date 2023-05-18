@@ -1,4 +1,6 @@
-from .conv_norm_activation import ConvNormActivation
+# Temporarily removed for equinox 0.10.3
+# from .conv_norm_activation import ConvNormActivation
+
 from .drop_path import DropPath
 from .extensions_2d import LayerNorm2d, Linear2d
 from .mlps import MlpProjection
